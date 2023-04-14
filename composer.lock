@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "46c233fa504c06d89bafa298c01f56b3",
+    "packages": [
+        {
+            "name": "openeuropa/composer-artifacts",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/composer-artifacts.git",
+                "reference": "de2e0d8032bd5f82ec0e7cdc50c58c51a7339eb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openeuropa/composer-artifacts/zipball/de2e0d8032bd5f82ec0e7cdc50c58c51a7339eb0",
+                "reference": "de2e0d8032bd5f82ec0e7cdc50c58c51a7339eb0",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "composer/composer": "~2.0",
+                "openeuropa/code-review": "2.x-dev",
+                "phpunit/phpunit": "^9",
+                "symfony/console": "^4.4.30"
+            },
+            "default-branch": true,
+            "type": "composer-plugin",
+            "extra": {
+                "class": "OpenEuropa\\ComposerArtifacts\\Plugin",
+                "enable-patching": true,
+                "composer-exit-on-patch-failure": true,
+                "plugin-modifies-downloads": true,
+                "_readme": [
+                    "Explicit minimum version requirement of symfony/console due to lower versions passing null parameter to preg_match() being incompatible with PHP 8.1."
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "OpenEuropa\\ComposerArtifacts\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "description": "Composer plugin that allows to download a specified artifact instead of the default package.",
+            "keywords": [
+                "artifacts",
+                "composer-plugin"
+            ],
+            "support": {
+                "issues": "https://github.com/openeuropa/composer-artifacts/issues",
+                "source": "https://github.com/openeuropa/composer-artifacts/tree/1.x"
+            },
+            "time": "2022-12-16T17:03:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
