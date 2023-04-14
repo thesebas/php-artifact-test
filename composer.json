@@ -1,0 +1,12 @@
+{
+  "name": "thesebas/php-artifact-test-host",
+  "type": "library",
+  "repositories": [
+    {}
+  ],
+  "autoload": {
+    "psr-4": {
+      "Thesebas\\PhpArtifactTest\\": "src/"
+    }
+  }
+}
