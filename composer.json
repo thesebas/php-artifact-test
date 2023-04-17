@@ -5,5 +5,11 @@
     "psr-4": {
       "Thesebas\\PhpArtifactTest\\": "src/"
     }
+  },
+  "extra": {
+    "artifacts": {
+      "url": "https://github.com/{name}/releases/download/{pretty-version}/myartifact-{pretty-version}.tar.gz",
+      "type": "tar"
+    }
   }
 }
