@@ -8,8 +8,8 @@
   },
   "extra": {
     "artifacts": {
-      "url": "https://github.com/{name}/releases/download/{pretty-version}/myartifact-{pretty-version}.tar.gz",
-      "type": "tar"
+      "url": "https://github.com/{name}/releases/download/{pretty-version}/myartifact-{pretty-version}.zip",
+      "type": "zip"
     }
   }
 }
